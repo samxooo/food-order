@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 18rem;
+  height: 3rem;
+  border: none;
+  /* border: 1px solid #e72929; */
+  background-color: rgb(230, 230, 230);
+  border-radius: 10rem 0 0 10rem;
+  padding-left: 17px;
+  outline: none;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+
+button {
+  width: 5rem;
+  height: 3rem;
+  font-weight: 550;
+  background-color: #e72929;
+  color: white;
+  border: none;
+  border-radius: 0 10rem 10rem 0;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #e72929;
+  border: 1px solid #e72929;
+}
+
+@media screen and (max-width: 876px) {
+  input {
+    width: 150px;
+  }
+}
+
+
